@@ -34,7 +34,7 @@ export default function LandingPage() {
     };
     setReviews([newReview, ...reviews]);
 
-    const phoneNumber = "254797682721";
+    const phoneNumber = "+254 758 025570";
     const message = `New Review for Mel Laundry Services:%0A⭐ Rating: ${formData.rating} Stars%0A📝 Comment: ${formData.comment}`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
